@@ -1,0 +1,44 @@
+name: TimesDP
+version: 1.0.0
+api: [3.0.0]
+author: PatinDP
+main: PatinDP\Times\Main
+
+commands:
+  flamengo:
+    description: Flamengo
+    permission: flamengo.cmd
+  palmeiras:
+    description: Palmeiras
+    permission: palmeiras.cmd
+  fluminense:
+    description: Fluminense
+    permission: fluminense.cmd
+  corinthians:
+    description: Corinthians
+    permission: corinthians.cmd
+  vasco:
+    description: Vasco
+    permission: vasco.cmd
+  gremio:
+    description: Gremio
+    permission: gremio.cmd
+  santos:
+    description: Santos
+    permission: santos.cmd
+
+permissions:
+  flamengo:
+    default: true
+  palmeiras:
+    default: true
+  fluminense:
+    default: true
+  corinthians:
+    default: true
+  vasco:
+    default: true
+  gremio:
+    default: true
+  santos:
+    default: true
